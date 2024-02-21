@@ -6,10 +6,9 @@ module.exports = {
   plugins: ['@typescript-eslint', 'simple-import-sort'],
   rules: {
     // Format
-    'indent': ['error', 2],
+    'indent': ['error', 2, { SwitchCase: 1 }],
     'semi': ['error', 'never'],
     'quotes': ['error', 'single'],
-    'jsx-quotes': ['error', 'prefer-double'],
     'comma-dangle': ['error', 'always-multiline'],
     // Lint
     'simple-import-sort/imports': 'error',

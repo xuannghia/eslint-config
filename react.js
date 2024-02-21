@@ -3,4 +3,8 @@ module.exports = {
     './typescript',
     'plugin:react-hooks/recommended',
   ],
+  rules: {
+    // Format
+    'jsx-quotes': ['error', 'prefer-double'],
+  }
 }
