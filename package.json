@@ -1,0 +1,30 @@
+{
+  "name": "@xuannghia/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config",
+  "main": "index.js",
+  "keywords": [
+    "eslint-config",
+    "eslint"
+  ],
+  "author": "xuannghia <xuannghia.dev>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^12.0.0"
+  }
+}
